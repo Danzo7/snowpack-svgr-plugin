@@ -1,39 +1,36 @@
 {
   "dependencies": {
     "@babel/core": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
-    "@rollup/pluginutils": "^3.1.0",
-    "@svgr/core": "^5.4.0",
-    "@svgr/plugin-jsx": "^5.4.0",
-    "@svgr/plugin-svgo": "^5.4.0"
+    "@svgr/core": "^5.4.0"
   },
   "deprecated": false,
-  "description": "snowpack plugin to integrate svgr",
+  "description": "A simple snowpack plugin to transform SVG files to HTML SVG using react",
   "license": "MIT",
-  "name": "snowpack-svgr",
+  "name": "snowpack-svgr-plugin",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.2",
-  "homepage": "https://github.com/Danzo7/",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Danzo7/snowpack-svgr-plugin",
   "bugs": {
-    "url": "https://github.com/Danzo7/snowpack-svgr/issues"
+    "url": "https://github.com/Danzo7/snowpack-svgr-plugin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danzo7/snowpack-svgr.git",
-    "directory": "snowpack-svgr"
+    "url": "https://github.com/danzo7/snowpack-svgr-plugin.git",
+    "directory": "snowpack-svgr-plugin"
   },
   "devDependencies": {},
   "scripts": {},
   "main": "index.js",
   "keywords": [
-    "snowpack-sass",
-    "snowpack-plugin",
+    "snowpack-plugin-svgr",
     "snowpack",
     "snowpack-svgr",
-    "svgr"
+    "svgr",
+    "svg react",
+    "svg"
   ],
   "author": "danzo7"
 }
