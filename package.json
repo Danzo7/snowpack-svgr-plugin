@@ -11,7 +11,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/Danzo7/snowpack-svgr-plugin",
   "bugs": {
     "url": "https://github.com/Danzo7/snowpack-svgr-plugin/issues"
