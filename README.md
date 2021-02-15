@@ -1,5 +1,5 @@
 
-# snowpack-svgr
+# snowpack-svgr-plugin
 
 
 this plugin will let you import SVG files and use them as a react component and transform them to browser as normal SVG
@@ -22,12 +22,12 @@ Add the plugin to `snowpack.config.js`
 ```
 
 #### Supported files
-We use an odd technique to prevent transforming all SVG files 
+We use an odd technique to prevent transforming all SVG files
 
-only files that endsup with `*.svgr.svg` will be transformed <- ODD
->this was the quicker solution that  come to my mind to overpass the lake of filtering option in the snowpack API
+only files that endsup with `*.svgr.svg` will be transformed
+>this was the quicker solution that come to my mind to overpass the lake of filtering option in the snowpack API
 
- the reason of filtering is because this plugin will replace the targeted SVG files with JS so its will not be possible to use those files as normal svg inside HTML `<img>` tag or something ,so we keep it optionally to transform the SVG Files or not.
+ the reason of filtering is because this plugin will replace the targeted files with the generated code so you will not be able to use these JS files as normal SVG like inside HTML `<img>` tag or whatever,but with filtering you can control this habbet.
  ##### example 
 
 `home.svg`->`not transformed`
