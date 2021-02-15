@@ -68,10 +68,10 @@ now you will be able to import your `svgr.svg` files without type problems and u
 
 
 # What's next
-
-I hope its will be a solution for better filtering to be able to include/exclude folders Im not planing on investigate more in the Snowpack API But I will accept the Good Solutions Via PR so if someone what to help or fork i will appreciate it.
+hopfully its will be a better solution for filtering like to be able to include/exclude folders.
+ Im not planing on investigate more in the Snowpack API But I will accept the Good Solutions and ideas via PR so if someone want to help or fork i will appreciate it.
 - Also if you have any problems or issues using this plugin please make sure to [Create a Issue](https://github.com/jaredLunde/snowpack-plugin-svgr/issues) 
 
 
 <hr/>
-Finaly, Big thank to myself as this was a personal problem that i need to solve
+Finally, Big thank to myself as this was a personal problem that i need to solve
