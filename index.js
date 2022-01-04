@@ -12,11 +12,13 @@ module.exports = function (_, options) {
     },
     async load({ filePath }) {
       const contents = fs.readFileSync(filePath, 'utf-8');
-      const code = svgr
+      let code = svgr
         .sync(contents, {
           componentName: path.basename(filePath).split('.')[0],
         })
         .replace('import * as React', 'import React');
+        if(options.exportType=='named')
+        code=code.replace('export default SvgComponent',' export { SvgComponent as ReactComponent }');
       const { code: result } = babel.transformSync(code, {
         presets: ['@babel/preset-react'],
       });
